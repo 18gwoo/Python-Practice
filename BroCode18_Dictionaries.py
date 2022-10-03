@@ -36,3 +36,4 @@ print(capitals.items())
 for key,value in capitals.items():
     print(key,value)
 
+print("b")
