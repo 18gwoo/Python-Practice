@@ -6,10 +6,10 @@ class Car: #classes tend to be capitalized. Also better to put a class in a sepe
 
 # Need a special method called init construct objects for us. (Also known as constructor
     def __init__(self, make, model, year, color):
-        self.make = make #self refers to object we are currently making
-        self.model = model
-        self.year = year
-        self.color = color
+        self.make = make #self refers to object we are currently making. instance variables
+        self.model = model #These valiables found within the constructor are instance variables
+        self.year = year #instance variables
+        self.color = color #instance variables
 #Methods
     def drive(self): #Need to pass in self for methods but not when we call it (Lines 24-25)
         print ("This " + self.model +" is driving")
