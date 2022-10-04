@@ -1,5 +1,5 @@
 class Car:
-    wheels = 4 #Class varaible. Inside class but not instead constructor. Default is 4 wheels
+    wheels = 4 #Class varaible. Inside class but not inide constructor. Default is 4 wheels
 
     def __init__(self, make, model, year, color):
         self.make = make #instance variables
