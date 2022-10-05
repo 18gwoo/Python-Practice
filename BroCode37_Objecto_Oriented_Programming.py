@@ -4,7 +4,7 @@
 
 class Car: #classes tend to be capitalized. Also better to put a class in a seperate file if it is really large. To import you would just type "From (file) import (class name)"
 
-# Need a special method called init construct objects for us. (Also known as constructor
+# Need a special method called init to construct objects for us. (Also known as constructor)
     def __init__(self, make, model, year, color):
         self.make = make #self refers to object we are currently making. instance variables
         self.model = model #These valiables found within the constructor are instance variables
