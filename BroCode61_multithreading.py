@@ -2,13 +2,13 @@
 # Python threading tutorial
 # ****************************************************
 # thread =  a flow of execution. Like a separate order of instructions.
-#                  However each thread takes a turn running to achieve concurrency
-#                  GIL = (global interpreter lock), (only on thread can run at any one time
+#                  However, each thread takes a turn running to achieve concurrency
+#                  GIL = (global interpreter lock), (only one thread can run at any one time
 #                  allows only one thread to hold the control of the Python interpreter at any one time
 
 # cpu bound = program/task spends most of it's time waiting for internal events (CPU intensive)
 #             use multiprocessing
-
+# Multithreading is useful for when there is one big process that eats a lot of time
 # io bound = program/task spends most of it's time waiting for external events (user input, web scraping)
 #            use multithreading. Example would be if there was a timer for user input. one thread for user input and one for countdown timer
 
