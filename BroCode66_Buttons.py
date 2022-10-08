@@ -16,7 +16,7 @@ photo = PhotoImage(file='GUI_Icon.png')
 button = Button(window,
                 text="click me!",
                 command=click,              #what the button does
-                font=("Comic Sans",30),
+                font=("Ariel",30),
                 fg="#00FF00",
                 bg="black",
                 activeforeground="#00FF00", #Used so that button changes colors (or not) when clicked
