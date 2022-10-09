@@ -8,7 +8,7 @@ photo = PhotoImage(file="GUI_Icon.png")
 
 label = Label(window, #Paranthesis are constructor for the widget and arguments can be passed in
               text = "Hello this is my first GUI",  #Widget size actually changes in order to accomadate the size of components
-              font = ("Arial", 40, "underline"),    #font options (font, font size, style(italics, underline, bold)).
+              font = ("Comic Sans", 40, "underline"),    #font options (font, font size, style(italics, underline, bold)).
               fg="green",                           #fg stands for foreground and is the text color (can be in hexa decimal or color name).
               bg = "black",                         #bg is background color
               relief=RAISED,                        #Chooses border
