@@ -1,3 +1,4 @@
+#Graphical User Interface
 from tkinter import * #type of gui included in python. Imports everything related to module
 
 #Widgets = GUI elements: Buttons, textboxes, labels, images]
