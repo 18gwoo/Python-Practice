@@ -8,7 +8,7 @@ def submit():
 window = Tk()
 text = Text(window,                          #Gives a text area to enter stuff in
             bg="light yellow",
-            font=("Ink Free",25),
+            font=("ariel",25),
             height=8,
             width=20,
             padx=20,
