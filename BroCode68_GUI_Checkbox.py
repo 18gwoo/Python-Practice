@@ -27,7 +27,7 @@ check_button = Checkbutton(window,
                            pady=10,
                            image=python_photo,
                            compound='left') #prevents overlapping of text and image
-check_button.pack()
+check_button.pack(side=BOTTOM)
 
 
 window.mainloop()
