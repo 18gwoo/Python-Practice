@@ -7,7 +7,7 @@ def start():
     download = 0
     speed = 1
     while(download<GB):
-        time.sleep(0.04)                                        #Adds a delay
+        time.sleep(0.05)                                        #Adds a delay
         bar['value']+=(speed/GB)*100                            #Increases value of progress bar
         download+=speed                                         #Same amount is being added to the bar as the rest of the variables
         percent.set(str(int((download/GB)*100))+"%")            #Sets what percent is during each iteration. int is used so that there is no decimal at the end of out %
