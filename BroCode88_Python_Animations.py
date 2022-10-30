@@ -28,6 +28,6 @@ while True:
         yVelocity = -yVelocity            #Inverses the velocity if wall is hit
     canvas.move(my_image,xVelocity,yVelocity) #Moves image (image, x movement, y movement)
     window.update()
-    time.sleep(0.01)
+    time.sleep(0.03)
 
 window.mainloop()
