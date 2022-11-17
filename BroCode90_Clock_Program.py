@@ -28,7 +28,7 @@ date_label = Label(window, font=("Times New Roman",50), fg="green", bg="black")
 date_label.pack()
 
 update()
-#while True: #Used is .after function wasnt used
+#while True:  #Used is .after function wasnt used
     #update() #Updates time every second
     #window.update()
 
