@@ -24,7 +24,7 @@ time_label.pack()
 day_label = Label(window, font=("Times New Roman",50), fg="green", bg="black")
 day_label.pack()
 
-date_label = Label(window, font=("Times New Roman",45), fg="green", bg="black")
+date_label = Label(window, font=("Times New Roman",50), fg="green", bg="black")
 date_label.pack()
 
 update()
