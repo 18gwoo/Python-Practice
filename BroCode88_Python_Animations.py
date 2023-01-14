@@ -28,6 +28,6 @@ while True:
         yVelocity = -yVelocity
     canvas.move(my_image,xVelocity,yVelocity)
     window.update()
-    time.sleep(0.01)
+    time.sleep(0.02)
 
 window.mainloop()
